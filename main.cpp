@@ -2,10 +2,14 @@
 #include "Animal.h"
 
 int main() {
-    Persona p1("Ana", "Gómez", 30, 1.65);
+    Persona p1("Ana", "Gï¿½mez", 30, 1.65);
     p1.mostrarDatos();
 
     Animal miAnimal("Firulais", 5);
     miAnimal.mostrarInformacion();
+
+    //hola
+
+    cout<<"Hola, mundo!"<<endl;
     return 0;
 }
